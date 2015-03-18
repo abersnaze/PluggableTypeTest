@@ -1,0 +1,11 @@
+apply plugin:'java'
+apply plugin:'eclipse'
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	compile 'org.reactivestreams:reactive-streams:1.0.0.RC3'
+}
+
